@@ -1,0 +1,9 @@
+def master_symbol(ticker_symbol, directory="S&P"):
+    import urllib
+    base_url = "http://ichart.finance.yahoo.com/table.csv?s="
+    download_url = base_url + ticker_symbol
+    base_path = "C://Users//Charles//Documents//YahooFinanceData//" 
+    download_path = base_path + ticker_symbol + ".csv" 
+    testfile = urllib.URLopener()
+    testfile.retrieve(download_url, download_path)
+
