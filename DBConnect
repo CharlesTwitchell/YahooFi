@@ -1,0 +1,4 @@
+db = MySQLdb.connect(host="box375.bluehost.com", # your host, usually localhost
+                     user="divebomb_chuck3", # your username
+                      passwd="raiders234", # your password
+                      db="divebomb_chuckles") # name of the data base
